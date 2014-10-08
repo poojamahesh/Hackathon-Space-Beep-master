@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpaceBeep</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="title_activity_register_check">RegisterCheck</string>
+    <string name="title_activity_beep_notification">BeepNotificationActivity</string>
+    <string name="title_activity_mynotifyactivity">mynotifyactivity</string>
+
+</resources>

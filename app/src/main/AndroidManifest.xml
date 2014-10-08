@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.beep.space.pooja.spacebeep" >
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault" >
+        <activity
+            android:name=".SpaceBeep"
+            android:allowEmbedded="true"
+            android:label="SpaceBeep" >
+
+        </activity>
+        <activity
+            android:name=".Space"
+            android:allowEmbedded="true"
+            android:label="Space" >
+
+        </activity>
+        <activity
+            android:name=".RegisterCheck"
+            android:label="RegisterCheck" >
+
+        </activity>
+
+        <activity
+            android:name=".mynotifyactivity"
+            android:label="@string/title_activity_mynotifyactivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
